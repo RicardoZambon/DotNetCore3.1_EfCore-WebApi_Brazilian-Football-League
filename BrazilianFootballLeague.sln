@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30011.22
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BrazilianFootballLeague.WebApi", "BrazilianFootballLeague.WebApi\BrazilianFootballLeague.WebApi.csproj", "{7F0667D0-4C56-4785-82D2-47F806152432}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BrazilianFootballLeague.DataAccess", "BrazilianFootballLeague.DataAccess\BrazilianFootballLeague.DataAccess.csproj", "{BF587D29-002C-460D-940E-6FBA82F26190}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7F0667D0-4C56-4785-82D2-47F806152432}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7F0667D0-4C56-4785-82D2-47F806152432}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7F0667D0-4C56-4785-82D2-47F806152432}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7F0667D0-4C56-4785-82D2-47F806152432}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BF587D29-002C-460D-940E-6FBA82F26190}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BF587D29-002C-460D-940E-6FBA82F26190}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BF587D29-002C-460D-940E-6FBA82F26190}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BF587D29-002C-460D-940E-6FBA82F26190}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {494D39A1-E293-487A-9BC1-6167C63CE5B7}
+	EndGlobalSection
+EndGlobal

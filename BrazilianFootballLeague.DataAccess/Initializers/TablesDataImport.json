@@ -1,0 +1,134 @@
+{
+  "Competitions": [
+    {
+      "Name": "Série A",
+      "Seasons": [
+        {
+          "Year": 2015,
+          "Results": [
+            { "Team": "Corinthians", "Position": 1, "Points": 81, "Played": 38, "Won": 24, "Drawn": 9, "Lost": 5, "GoalsFor": 71, "GoalsAgainst": 31 },
+            { "Team": "Atlético MG", "Position": 2, "Points": 69, "Played": 38, "Won": 21, "Drawn": 6, "Lost": 11, "GoalsFor": 65, "GoalsAgainst": 47 },
+            { "Team": "Grêmio", "Position": 3, "Points": 68, "Played": 38, "Won": 20, "Drawn": 8, "Lost": 10, "GoalsFor": 52, "GoalsAgainst": 32 },
+            { "Team": "São Paulo", "Position": 4, "Points": 68, "Played": 38, "Won": 20, "Drawn": 8, "Lost": 10, "GoalsFor": 52, "GoalsAgainst": 32 },
+            { "Team": "Internacional", "Position": 5, "Points": 60, "Played": 38, "Won": 17, "Drawn": 9, "Lost": 12, "GoalsFor": 39, "GoalsAgainst": 38 },
+            { "Team": "Sport", "Position": 6, "Points": 59, "Played": 38, "Won": 15, "Drawn": 14, "Lost": 9, "GoalsFor": 53, "GoalsAgainst": 38 },
+            { "Team": "Santos", "Position": 7, "Points": 58, "Played": 38, "Won": 16, "Drawn": 10, "Lost": 12, "GoalsFor": 59, "GoalsAgainst": 41 },
+            { "Team": "Cruzeiro", "Position": 8, "Points": 55, "Played": 38, "Won": 15, "Drawn": 10, "Lost": 13, "GoalsFor": 44, "GoalsAgainst": 35 },
+            { "Team": "Palmeiras", "Position": 9, "Points": 53, "Played": 38, "Won": 15, "Drawn": 8, "Lost": 15, "GoalsFor": 60, "GoalsAgainst": 51 },
+            { "Team": "Atlético PR", "Position": 10, "Points": 51, "Played": 38, "Won": 14, "Drawn": 9, "Lost": 15, "GoalsFor": 43, "GoalsAgainst": 48 },
+            { "Team": "Ponte Preta", "Position": 11, "Points": 51, "Played": 38, "Won": 13, "Drawn": 12, "Lost": 13, "GoalsFor": 41, "GoalsAgainst": 40 },
+            { "Team": "Flamengo", "Position": 12, "Points": 49, "Played": 38, "Won": 15, "Drawn": 4, "Lost": 19, "GoalsFor": 45, "GoalsAgainst": 53 },
+            { "Team": "Fluminense", "Position": 13, "Points": 47, "Played": 38, "Won": 14, "Drawn": 5, "Lost": 19, "GoalsFor": 40, "GoalsAgainst": 49 },
+            { "Team": "Chapecoense", "Position": 14, "Points": 47, "Played": 38, "Won": 12, "Drawn": 11, "Lost": 15, "GoalsFor": 34, "GoalsAgainst": 44 },
+            { "Team": "Coritiba", "Position": 15, "Points": 44, "Played": 38, "Won": 11, "Drawn": 11, "Lost": 16, "GoalsFor": 31, "GoalsAgainst": 42 },
+            { "Team": "Figueirense", "Position": 16, "Points": 43, "Played": 38, "Won": 11, "Drawn": 10, "Lost": 17, "GoalsFor": 36, "GoalsAgainst": 50 },
+            { "Team": "Avaí", "Position": 17, "Points": 42, "Played": 38, "Won": 11, "Drawn": 9, "Lost": 18, "GoalsFor": 38, "GoalsAgainst": 60 },
+            { "Team": "Vasco da Gama", "Position": 18, "Points": 41, "Played": 38, "Won": 10, "Drawn": 11, "Lost": 17, "GoalsFor": 28, "GoalsAgainst": 54 },
+            { "Team": "Goiás", "Position": 19, "Points": 38, "Played": 38, "Won": 10, "Drawn": 8, "Lost": 20, "GoalsFor": 39, "GoalsAgainst": 49 },
+            { "Team": "Joinvile", "Position": 20, "Points": 31, "Played": 38, "Won": 7, "Drawn": 10, "Lost": 21, "GoalsFor": 26, "GoalsAgainst": 48 }
+          ]
+        },
+        {
+          "Year": 2016,
+          "Results": [
+            { "Team": "Palmeiras", "Position": 1, "Points": 80, "Played": 38, "Won": 24, "Drawn": 8, "Lost": 6, "GoalsFor": 62, "GoalsAgainst": 32 },
+            { "Team": "Santos", "Position": 2, "Points": 71, "Played": 38, "Won": 22, "Drawn": 5, "Lost": 11, "GoalsFor": 59, "GoalsAgainst": 35 },
+            { "Team": "Flamengo", "Position": 3, "Points": 71, "Played": 38, "Won": 20, "Drawn": 11, "Lost": 7, "GoalsFor": 52, "GoalsAgainst": 35 },
+            { "Team": "Atlético MG", "Position": 4, "Points": 62, "Played": 38, "Won": 17, "Drawn": 11, "Lost": 10, "GoalsFor": 61, "GoalsAgainst": 53 },
+            { "Team": "Botafogo", "Position": 5, "Points": 59, "Played": 38, "Won": 17, "Drawn": 8, "Lost": 13, "GoalsFor": 43, "GoalsAgainst": 39 },
+            { "Team": "Atlético PR", "Position": 6, "Points": 57, "Played": 38, "Won": 17, "Drawn": 6, "Lost": 15, "GoalsFor": 38, "GoalsAgainst": 32 },
+            { "Team": "Corinthians", "Position": 7, "Points": 55, "Played": 38, "Won": 15, "Drawn": 10, "Lost": 13, "GoalsFor": 48, "GoalsAgainst": 42 },
+            { "Team": "Ponte Preta", "Position": 8, "Points": 53, "Played": 38, "Won": 15, "Drawn": 8, "Lost": 15, "GoalsFor": 48, "GoalsAgainst": 52 },
+            { "Team": "Grêmio", "Position": 9, "Points": 53, "Played": 38, "Won": 14, "Drawn": 11, "Lost": 13, "GoalsFor": 41, "GoalsAgainst": 44 },
+            { "Team": "São Paulo", "Position": 10, "Points": 52, "Played": 38, "Won": 14, "Drawn": 10, "Lost": 14, "GoalsFor": 44, "GoalsAgainst": 36 },
+            { "Team": "Chapecoense", "Position": 11, "Points": 52, "Played": 38, "Won": 13, "Drawn": 13, "Lost": 12, "GoalsFor": 49, "GoalsAgainst": 56 },
+            { "Team": "Cruzeiro", "Position": 12, "Points": 51, "Played": 38, "Won": 14, "Drawn": 9, "Lost": 15, "GoalsFor": 48, "GoalsAgainst": 49 },
+            { "Team": "Fluminense", "Position": 13, "Points": 50, "Played": 38, "Won": 13, "Drawn": 11, "Lost": 14, "GoalsFor": 45, "GoalsAgainst": 45 },
+            { "Team": "Sport", "Position": 14, "Points": 47, "Played": 38, "Won": 13, "Drawn": 8, "Lost": 17, "GoalsFor": 49, "GoalsAgainst": 55 },
+            { "Team": "Coritiba", "Position": 15, "Points": 46, "Played": 38, "Won": 11, "Drawn": 13, "Lost": 14, "GoalsFor": 41, "GoalsAgainst": 42 },
+            { "Team": "Vitória", "Position": 16, "Points": 45, "Played": 38, "Won": 12, "Drawn": 9, "Lost": 17, "GoalsFor": 51, "GoalsAgainst": 53 },
+            { "Team": "Internacional", "Position": 17, "Points": 43, "Played": 38, "Won": 11, "Drawn": 10, "Lost": 17, "GoalsFor": 35, "GoalsAgainst": 41 },
+            { "Team": "Figueirense", "Position": 18, "Points": 37, "Played": 38, "Won": 8, "Drawn": 13, "Lost": 17, "GoalsFor": 30, "GoalsAgainst": 50 },
+            { "Team": "Santa Cruz", "Position": 19, "Points": 28, "Played": 38, "Won": 8, "Drawn": 7, "Lost": 23, "GoalsFor": 45, "GoalsAgainst": 69 },
+            { "Team": "América Mineiro", "Position": 20, "Points": 28, "Played": 38, "Won": 7, "Drawn": 7, "Lost": 24, "GoalsFor": 23, "GoalsAgainst": 58 }
+          ]
+        },
+        {
+          "Year": 2017,
+          "Results": [
+            { "Team": "Corinthians", "Position": 1, "Points": 72, "Played": 38, "Won": 21, "Drawn": 9, "Lost": 8, "GoalsFor": 50, "GoalsAgainst": 30 },
+            { "Team": "Palmeiras", "Position": 2, "Points": 63, "Played": 38, "Won": 19, "Drawn": 6, "Lost": 13, "GoalsFor": 61, "GoalsAgainst": 45 },
+            { "Team": "Santos", "Position": 3, "Points": 63, "Played": 38, "Won": 17, "Drawn": 12, "Lost": 9, "GoalsFor": 42, "GoalsAgainst": 32 },
+            { "Team": "Grêmio", "Position": 4, "Points": 62, "Played": 38, "Won": 18, "Drawn": 8, "Lost": 12, "GoalsFor": 55, "GoalsAgainst": 36 },
+            { "Team": "Cruzeiro", "Position": 5, "Points": 57, "Played": 38, "Won": 15, "Drawn": 12, "Lost": 11, "GoalsFor": 47, "GoalsAgainst": 39 },
+            { "Team": "Flamengo", "Position": 6, "Points": 56, "Played": 38, "Won": 15, "Drawn": 11, "Lost": 12, "GoalsFor": 49, "GoalsAgainst": 38 },
+            { "Team": "Vasco da Gama", "Position": 7, "Points": 56, "Played": 38, "Won": 15, "Drawn": 11, "Lost": 12, "GoalsFor": 40, "GoalsAgainst": 47 },
+            { "Team": "Chapecoense", "Position": 8, "Points": 54, "Played": 38, "Won": 15, "Drawn": 9, "Lost": 14, "GoalsFor": 47, "GoalsAgainst": 49 },
+            { "Team": "Atlético MG", "Position": 9, "Points": 54, "Played": 38, "Won": 14, "Drawn": 12, "Lost": 12, "GoalsFor": 52, "GoalsAgainst": 49 },
+            { "Team": "Botafogo", "Position": 10, "Points": 53, "Played": 38, "Won": 14, "Drawn": 11, "Lost": 13, "GoalsFor": 45, "GoalsAgainst": 42 },
+            { "Team": "Atlético PR", "Position": 11, "Points": 51, "Played": 38, "Won": 14, "Drawn": 9, "Lost": 15, "GoalsFor": 45, "GoalsAgainst": 43 },
+            { "Team": "Bahia", "Position": 12, "Points": 50, "Played": 38, "Won": 13, "Drawn": 11, "Lost": 14, "GoalsFor": 50, "GoalsAgainst": 48 },
+            { "Team": "São Paulo", "Position": 13, "Points": 50, "Played": 38, "Won": 13, "Drawn": 11, "Lost": 14, "GoalsFor": 48, "GoalsAgainst": 49 },
+            { "Team": "Fluminense", "Position": 14, "Points": 47, "Played": 38, "Won": 11, "Drawn": 14, "Lost": 13, "GoalsFor": 50, "GoalsAgainst": 53 },
+            { "Team": "Sport", "Position": 15, "Points": 45, "Played": 38, "Won": 12, "Drawn": 9, "Lost": 17, "GoalsFor": 46, "GoalsAgainst": 58 },
+            { "Team": "Vitória", "Position": 16, "Points": 43, "Played": 38, "Won": 11, "Drawn": 10, "Lost": 17, "GoalsFor": 50, "GoalsAgainst": 58 },
+            { "Team": "Coritiba", "Position": 17, "Points": 43, "Played": 38, "Won": 11, "Drawn": 10, "Lost": 17, "GoalsFor": 42, "GoalsAgainst": 51 },
+            { "Team": "Avaí", "Position": 18, "Points": 43, "Played": 38, "Won": 10, "Drawn": 13, "Lost": 15, "GoalsFor": 29, "GoalsAgainst": 48 },
+            { "Team": "Ponte Preta", "Position": 19, "Points": 39, "Played": 38, "Won": 10, "Drawn": 9, "Lost": 19, "GoalsFor": 37, "GoalsAgainst": 52 },
+            { "Team": "Atlético Goiás", "Position": 20, "Points": 36, "Played": 38, "Won": 9, "Drawn": 9, "Lost": 20, "GoalsFor": 38, "GoalsAgainst": 56 }
+          ]
+        },
+        {
+          "Year": 2018,
+          "Results": [
+            { "Team": "Palmeiras", "Position": 1, "Points": 80, "Played": 38, "Won": 23, "Drawn": 11, "Lost": 4, "GoalsFor": 64, "GoalsAgainst": 26 },
+            { "Team": "Flamengo", "Position": 2, "Points": 72, "Played": 38, "Won": 21, "Drawn": 9, "Lost": 8, "GoalsFor": 59, "GoalsAgainst": 29 },
+            { "Team": "Internacional", "Position": 3, "Points": 69, "Played": 38, "Won": 19, "Drawn": 12, "Lost": 7, "GoalsFor": 51, "GoalsAgainst": 29 },
+            { "Team": "Grêmio", "Position": 4, "Points": 66, "Played": 38, "Won": 18, "Drawn": 12, "Lost": 8, "GoalsFor": 48, "GoalsAgainst": 27 },
+            { "Team": "São Paulo", "Position": 5, "Points": 63, "Played": 38, "Won": 16, "Drawn": 15, "Lost": 7, "GoalsFor": 46, "GoalsAgainst": 34 },
+            { "Team": "Atlético MG", "Position": 6, "Points": 59, "Played": 38, "Won": 17, "Drawn": 8, "Lost": 13, "GoalsFor": 56, "GoalsAgainst": 43 },
+            { "Team": "Atlético PR", "Position": 7, "Points": 57, "Played": 38, "Won": 16, "Drawn": 9, "Lost": 13, "GoalsFor": 54, "GoalsAgainst": 37 },
+            { "Team": "Cruzeiro", "Position": 8, "Points": 53, "Played": 38, "Won": 14, "Drawn": 11, "Lost": 13, "GoalsFor": 34, "GoalsAgainst": 34 },
+            { "Team": "Botafogo", "Position": 9, "Points": 51, "Played": 38, "Won": 13, "Drawn": 12, "Lost": 13, "GoalsFor": 38, "GoalsAgainst": 46 },
+            { "Team": "Santos", "Position": 10, "Points": 50, "Played": 38, "Won": 13, "Drawn": 11, "Lost": 14, "GoalsFor": 46, "GoalsAgainst": 40 },
+            { "Team": "Bahia", "Position": 11, "Points": 48, "Played": 38, "Won": 12, "Drawn": 12, "Lost": 14, "GoalsFor": 39, "GoalsAgainst": 41 },
+            { "Team": "Fluminense", "Position": 12, "Points": 45, "Played": 38, "Won": 12, "Drawn": 9, "Lost": 17, "GoalsFor": 32, "GoalsAgainst": 46 },
+            { "Team": "Corinthians", "Position": 13, "Points": 44, "Played": 38, "Won": 11, "Drawn": 11, "Lost": 16, "GoalsFor": 34, "GoalsAgainst": 35 },
+            { "Team": "Chapecoense", "Position": 14, "Points": 44, "Played": 38, "Won": 11, "Drawn": 11, "Lost": 16, "GoalsFor": 34, "GoalsAgainst": 50 },
+            { "Team": "Ceará", "Position": 15, "Points": 44, "Played": 38, "Won": 10, "Drawn": 14, "Lost": 14, "GoalsFor": 32, "GoalsAgainst": 38 },
+            { "Team": "Vasco da Gama", "Position": 16, "Points": 43, "Played": 38, "Won": 10, "Drawn": 13, "Lost": 15, "GoalsFor": 41, "GoalsAgainst": 48 },
+            { "Team": "América Mineiro", "Position": 17, "Points": 40, "Played": 38, "Won": 10, "Drawn": 10, "Lost": 18, "GoalsFor": 30, "GoalsAgainst": 47 },
+            { "Team": "Sport", "Position": 18, "Points": 39, "Played": 38, "Won": 11, "Drawn": 9, "Lost": 18, "GoalsFor": 35, "GoalsAgainst": 57 },
+            { "Team": "Vitória", "Position": 19, "Points": 37, "Played": 38, "Won": 9, "Drawn": 10, "Lost": 19, "GoalsFor": 36, "GoalsAgainst": 63 },
+            { "Team": "Paraná", "Position": 20, "Points": 23, "Played": 38, "Won": 4, "Drawn": 11, "Lost": 23, "GoalsFor": 18, "GoalsAgainst": 57 }
+          ]
+        },
+        {
+          "Year": 2019,
+          "Results": [
+            { "Team": "Flamengo", "Position": 1, "Points": 90, "Played": 38, "Won": 28, "Drawn": 6, "Lost": 4, "GoalsFor": 86, "GoalsAgainst": 37 },
+            { "Team": "Santos", "Position": 2, "Points": 74, "Played": 38, "Won": 22, "Drawn": 8, "Lost": 8, "GoalsFor": 60, "GoalsAgainst": 33 },
+            { "Team": "Palmeiras", "Position": 3, "Points": 74, "Played": 38, "Won": 21, "Drawn": 11, "Lost": 6, "GoalsFor": 61, "GoalsAgainst": 32 },
+            { "Team": "Grêmio", "Position": 4, "Points": 65, "Played": 38, "Won": 19, "Drawn": 8, "Lost": 11, "GoalsFor": 64, "GoalsAgainst": 39 },
+            { "Team": "Atlético PR", "Position": 5, "Points": 64, "Played": 38, "Won": 18, "Drawn": 10, "Lost": 10, "GoalsFor": 51, "GoalsAgainst": 32 },
+            { "Team": "São Paulo", "Position": 6, "Points": 63, "Played": 38, "Won": 17, "Drawn": 12, "Lost": 9, "GoalsFor": 39, "GoalsAgainst": 30 },
+            { "Team": "Internacional", "Position": 7, "Points": 57, "Played": 38, "Won": 16, "Drawn": 9, "Lost": 13, "GoalsFor": 44, "GoalsAgainst": 39 },
+            { "Team": "Corinthians", "Position": 8, "Points": 56, "Played": 38, "Won": 14, "Drawn": 14, "Lost": 10, "GoalsFor": 42, "GoalsAgainst": 34 },
+            { "Team": "Fortaleza", "Position": 9, "Points": 53, "Played": 38, "Won": 15, "Drawn": 8, "Lost": 15, "GoalsFor": 50, "GoalsAgainst": 49 },
+            { "Team": "Goiás", "Position": 10, "Points": 52, "Played": 38, "Won": 15, "Drawn": 7, "Lost": 16, "GoalsFor": 46, "GoalsAgainst": 64 },
+            { "Team": "Bahia", "Position": 11, "Points": 49, "Played": 38, "Won": 12, "Drawn": 13, "Lost": 13, "GoalsFor": 44, "GoalsAgainst": 43 },
+            { "Team": "Vasco da Gama", "Position": 12, "Points": 49, "Played": 38, "Won": 12, "Drawn": 13, "Lost": 13, "GoalsFor": 39, "GoalsAgainst": 45 },
+            { "Team": "Atlético MG", "Position": 13, "Points": 48, "Played": 38, "Won": 13, "Drawn": 9, "Lost": 16, "GoalsFor": 45, "GoalsAgainst": 49 },
+            { "Team": "Fluminense", "Position": 14, "Points": 46, "Played": 38, "Won": 12, "Drawn": 10, "Lost": 16, "GoalsFor": 38, "GoalsAgainst": 46 },
+            { "Team": "Botafogo", "Position": 15, "Points": 43, "Played": 38, "Won": 13, "Drawn": 4, "Lost": 21, "GoalsFor": 31, "GoalsAgainst": 45 },
+            { "Team": "Ceará", "Position": 16, "Points": 39, "Played": 38, "Won": 10, "Drawn": 9, "Lost": 19, "GoalsFor": 36, "GoalsAgainst": 41 },
+            { "Team": "Cruzeiro", "Position": 17, "Points": 36, "Played": 38, "Won": 7, "Drawn": 15, "Lost": 16, "GoalsFor": 27, "GoalsAgainst": 46 },
+            { "Team": "CSA", "Position": 18, "Points": 32, "Played": 38, "Won": 8, "Drawn": 8, "Lost": 22, "GoalsFor": 24, "GoalsAgainst": 58 },
+            { "Team": "Chapecoense", "Position": 19, "Points": 32, "Played": 38, "Won": 7, "Drawn": 11, "Lost": 20, "GoalsFor": 31, "GoalsAgainst": 52 },
+            { "Team": "Avaí", "Position": 20, "Points": 20, "Played": 38, "Won": 3, "Drawn": 11, "Lost": 24, "GoalsFor": 18, "GoalsAgainst": 62 }
+          ]
+        }
+      ]
+    }
+  ]
+}
