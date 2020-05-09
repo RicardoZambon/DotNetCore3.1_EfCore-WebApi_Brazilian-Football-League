@@ -5,7 +5,9 @@ VisualStudioVersion = 16.0.30011.22
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BrazilianFootballLeague.WebApi", "BrazilianFootballLeague.WebApi\BrazilianFootballLeague.WebApi.csproj", "{7F0667D0-4C56-4785-82D2-47F806152432}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BrazilianFootballLeague.DataAccess", "BrazilianFootballLeague.DataAccess\BrazilianFootballLeague.DataAccess.csproj", "{BF587D29-002C-460D-940E-6FBA82F26190}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BrazilianFootballLeague.DataAccess", "BrazilianFootballLeague.DataAccess\BrazilianFootballLeague.DataAccess.csproj", "{BF587D29-002C-460D-940E-6FBA82F26190}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BrazilianFootballLeague.Test", "BrazilianFootballLeague.Test\BrazilianFootballLeague.Test.csproj", "{FCF00354-4B2E-4C02-BD4A-C72DA05D6F76}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +23,10 @@ Global
 		{BF587D29-002C-460D-940E-6FBA82F26190}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{BF587D29-002C-460D-940E-6FBA82F26190}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{BF587D29-002C-460D-940E-6FBA82F26190}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FCF00354-4B2E-4C02-BD4A-C72DA05D6F76}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FCF00354-4B2E-4C02-BD4A-C72DA05D6F76}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FCF00354-4B2E-4C02-BD4A-C72DA05D6F76}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FCF00354-4B2E-4C02-BD4A-C72DA05D6F76}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

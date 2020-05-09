@@ -4,14 +4,11 @@ using BrazilianFootballLeague.DataAccess.Statistics;
 using BrazilianFootballLeague.WebApi.Enums;
 using BrazilianFootballLeague.WebApi.Models;
 using Microsoft.AspNetCore.Mvc;
-using Microsoft.AspNetCore.Mvc.TagHelpers;
 using Microsoft.Data.Sqlite;
 using Microsoft.Extensions.Logging;
 using System;
 using System.Data;
-using System.Data.Common;
 using System.Linq;
-using System.Text.RegularExpressions;
 using System.Threading.Tasks;
 
 namespace BrazilianFootballLeague.WebApi.Controllers
@@ -78,22 +75,22 @@ namespace BrazilianFootballLeague.WebApi.Controllers
                 switch (statisticsType)
                 {
                     case StatisticsType.MaxGoalsFor:
-                        team = await TeamsStatistics.GetStatistics(_ctx, x => x.GoalsFor, TeamsStatistics.StatisticGrouping.Teams, TeamsStatistics.StatisticType.Average, TeamsStatistics.StatisticOrder.Descending);
+                        team = await TeamsStatistics.GetStatistics(_ctx, x => x.GoalsFor, TeamsStatistics.StatisticType.Average, TeamsStatistics.StatisticOrder.Descending);
                         break;
                     case StatisticsType.MinGoalsAgainst:
-                        team = await TeamsStatistics.GetStatistics(_ctx, x => x.GoalsAgainst, TeamsStatistics.StatisticGrouping.Teams, TeamsStatistics.StatisticType.Average, TeamsStatistics.StatisticOrder.Ascending);
+                        team = await TeamsStatistics.GetStatistics(_ctx, x => x.GoalsAgainst, TeamsStatistics.StatisticType.Average, TeamsStatistics.StatisticOrder.Ascending);
                         break;
                     case StatisticsType.MaxWon:
-                        team = await TeamsStatistics.GetStatistics(_ctx, x => x.Won, TeamsStatistics.StatisticGrouping.Teams, TeamsStatistics.StatisticType.Sum, TeamsStatistics.StatisticOrder.Descending);
+                        team = await TeamsStatistics.GetStatistics(_ctx, x => x.Won, TeamsStatistics.StatisticType.Sum, TeamsStatistics.StatisticOrder.Descending);
                         break;
                     case StatisticsType.MinWon:
-                        team = await TeamsStatistics.GetStatistics(_ctx, x => x.Won, TeamsStatistics.StatisticGrouping.Teams, TeamsStatistics.StatisticType.Sum, TeamsStatistics.StatisticOrder.Ascending);
+                        team = await TeamsStatistics.GetStatistics(_ctx, x => x.Won, TeamsStatistics.StatisticType.Sum, TeamsStatistics.StatisticOrder.Ascending);
                         break;
                     case StatisticsType.BestAvaregeWons:
-                        team = await TeamsStatistics.GetStatistics(_ctx, x => x.Won, TeamsStatistics.StatisticGrouping.TeamsAndSeasons, TeamsStatistics.StatisticType.Average, TeamsStatistics.StatisticOrder.Descending);
+                        team = await TeamsStatistics.GetStatistics(_ctx, x => x.Won, TeamsStatistics.StatisticType.Average, TeamsStatistics.StatisticOrder.Descending);
                         break;
                     case StatisticsType.WorseAvaregeWons:
-                        team = await TeamsStatistics.GetStatistics(_ctx, x => x.Won, TeamsStatistics.StatisticGrouping.TeamsAndSeasons, TeamsStatistics.StatisticType.Average, TeamsStatistics.StatisticOrder.Ascending);
+                        team = await TeamsStatistics.GetStatistics(_ctx, x => x.Won, TeamsStatistics.StatisticType.Average, TeamsStatistics.StatisticOrder.Ascending);
                         break;
                     default:
                         return NotFound();
