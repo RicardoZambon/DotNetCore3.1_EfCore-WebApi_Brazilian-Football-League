@@ -1,11 +1,11 @@
-﻿using BrazilianFootballLeague.DataAccess.Interfaces;
+﻿using System;
+using System.Collections.Generic;
+using System.Text;
 
-namespace BrazilianFootballLeague.DataAccess.Initializers.DataImport
+namespace BrazilianFootballLeague.DataAccess.Interfaces
 {
-    public class JsonResultsType : IResultTable
+    public interface IResultTable
     {
-        public string Team { get; set; }
-
         public int Position { get; set; }
 
         public int Points { get; set; }

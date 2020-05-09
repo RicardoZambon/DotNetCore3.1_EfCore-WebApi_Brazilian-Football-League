@@ -1,6 +1,8 @@
-﻿namespace BrazilianFootballLeague.DataAccess.BusinessObjects
+﻿using BrazilianFootballLeague.DataAccess.Interfaces;
+
+namespace BrazilianFootballLeague.DataAccess.BusinessObjects
 {
-    public class Competitions_ResultTable : BaseDBEntity
+    public class Competitions_ResultTable : BaseDBEntity, IResultTable
     {
         public virtual Competitions_Seasons Season { get; set; }
         public int SeasonID { get; set; }

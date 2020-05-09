@@ -1,6 +1,12 @@
 ﻿using BrazilianFootballLeague.DataAccess.BusinessObjects;
 using BrazilianFootballLeague.DataAccess.Initializers;
+using BrazilianFootballLeague.DataAccess.Interfaces;
 using Microsoft.EntityFrameworkCore;
+using System.Collections;
+using System.Collections.Generic;
+using System.Linq;
+using System.Security.Cryptography.X509Certificates;
+using System.Threading.Tasks;
 
 namespace BrazilianFootballLeague.DataAccess
 {
@@ -22,13 +28,6 @@ namespace BrazilianFootballLeague.DataAccess
 
         }
 
-        protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
-        {
-            base.OnConfiguring(optionsBuilder);
-
-            
-        }
-
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
             base.OnModelCreating(modelBuilder);
@@ -37,5 +36,13 @@ namespace BrazilianFootballLeague.DataAccess
             DataInitializer.Seed(modelBuilder);
 #endif
         }
+
+
+        public async Task<IOrderedEnumerable<T>> GetRanked<T>(DbSet<T> dbSet) where T : class, IResultTotal
+            => (await dbSet.ToListAsync())
+                .OrderByDescending(x => x.GetTotalPoints())
+                .ThenByDescending(x => x.GetTotalWon())
+                .ThenByDescending(x => x.GetTotalGoalsFor() - x.GetTotalGoalsAgainst())
+                .ThenByDescending(x => x.GetTotalGoalsFor());
     }
 }

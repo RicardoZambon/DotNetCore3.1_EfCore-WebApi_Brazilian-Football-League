@@ -49,7 +49,7 @@ namespace BrazilianFootballLeague.DataAccess.Initializers
 
             #region Teams
 
-            var teams = new List<Teams>
+            var teams = new Teams[]
             {
                 new Teams() { ID = 1, Name = "América Mineiro", StateID = 13 },
                 new Teams() { ID = 2, Name = "Atlético Goiás", StateID = 9 },
@@ -83,10 +83,7 @@ namespace BrazilianFootballLeague.DataAccess.Initializers
                 new Teams() { ID = 30, Name = "Vitória", StateID = 5 }
             };
 
-            foreach (var team in teams)
-            {
-                modelBuilder.Entity<Teams>().HasData(team);
-            }
+            modelBuilder.Entity<Teams>().HasData(teams);
 
             #endregion
 
