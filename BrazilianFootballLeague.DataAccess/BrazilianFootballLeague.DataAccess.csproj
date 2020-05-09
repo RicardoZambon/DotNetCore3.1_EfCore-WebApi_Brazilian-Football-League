@@ -17,10 +17,10 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Compile Include="Migrations\20200508193107_Initial.cs" />
-    <Compile Include="Migrations\20200508193107_Initial.designer.cs" />
-    <Compile Include="Migrations\20200508193225_Data.cs" />
-    <Compile Include="Migrations\20200508193225_Data.designer.cs" />
+    <Compile Include="Migrations\20200509032413_Initial.cs" />
+    <Compile Include="Migrations\20200509032413_Initial.designer.cs" />
+    <Compile Include="Migrations\20200509032428_Data.cs" />
+    <Compile Include="Migrations\20200509032428_Data.designer.cs" />
     <Compile Include="Migrations\AppDbContextModelSnapshot.cs" />
   </ItemGroup>
 

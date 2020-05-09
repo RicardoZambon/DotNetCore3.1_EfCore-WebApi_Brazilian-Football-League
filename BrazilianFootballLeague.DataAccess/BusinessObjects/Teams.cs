@@ -15,7 +15,7 @@ namespace BrazilianFootballLeague.DataAccess.BusinessObjects
         public int StateID { get; set; }
 
 
-        public virtual ICollection<Competitions_ResultTable> Results { get; set; }
+        public virtual ICollection<CompetitionsResultTable> Results { get; set; }
 
 
         public int GetTotalCompetitions() => Results.Count();

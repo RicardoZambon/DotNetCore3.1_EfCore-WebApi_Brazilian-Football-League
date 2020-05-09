@@ -17,7 +17,7 @@ namespace BrazilianFootballLeague.WebApi.Models
         public int GoalsAgainst { get; }
 
 
-        public ResultsModel(Competitions_ResultTable result)
+        public ResultsModel(CompetitionsResultTable result)
         {
             Team = result.Team.Name;
 

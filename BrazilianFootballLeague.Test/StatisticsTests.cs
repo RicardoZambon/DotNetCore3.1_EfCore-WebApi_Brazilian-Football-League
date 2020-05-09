@@ -9,10 +9,10 @@ namespace BrazilianFootballLeague.Test
 {
     public class StatisticsTests
     {
-        public const int EXPECTED_TEAMS_AVERAGE_ASCENDING = 3;
-        public const int EXPECTED_TEAMS_AVERAGE_DESCENDING = 2;
-        public const int EXPECTED_TEAMS_SUM_ASCENDING = 3;
-        public const int EXPECTED_TEAMS_SUM_DESCENDING = 1;
+        const int EXPECTED_TEAMS_AVERAGE_ASCENDING = 3;
+        const int EXPECTED_TEAMS_AVERAGE_DESCENDING = 2;
+        const int EXPECTED_TEAMS_SUM_ASCENDING = 3;
+        const int EXPECTED_TEAMS_SUM_DESCENDING = 1;
 
         public static IEnumerable<object[]> StatisticsParameters()
         {

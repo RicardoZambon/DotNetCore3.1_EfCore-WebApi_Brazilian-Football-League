@@ -2,7 +2,7 @@
 
 namespace BrazilianFootballLeague.DataAccess.BusinessObjects
 {
-    public class Competitions_Seasons : BaseDBEntity
+    public class CompetitionsSeasons : BaseDBEntity
     {
         public virtual Competitions Competition { get; set; }
         public int CompetitionID { get; set; }
@@ -10,6 +10,6 @@ namespace BrazilianFootballLeague.DataAccess.BusinessObjects
         public int Year { get; set; }
 
 
-        public virtual ICollection<Competitions_ResultTable> Results { get; set; }
+        public virtual ICollection<CompetitionsResultTable> Results { get; set; }
     }
 }

@@ -10,11 +10,11 @@ namespace BrazilianFootballLeague.DataAccess.Statistics
 {
     public static class TeamsStatistics
     {
-        private static IQueryable<Tuple<int, int>> GetAllResults(IQueryable<Competitions_ResultTable> competitions, Expression<Func<Competitions_ResultTable, int>> property)
+        private static IQueryable<Tuple<int, int>> GetAllResults(IQueryable<CompetitionsResultTable> competitions, Expression<Func<CompetitionsResultTable, int>> property)
             => competitions.Select(x => new Tuple<int, int>(x.TeamID, property.Compile().Invoke(x)));
 
 
-        public static async Task<Teams> GetStatistics(AppDbContext dbContext, Expression<Func<Competitions_ResultTable, int>> property, StatisticType statisticType, StatisticOrder statisticOrder)
+        public static async Task<Teams> GetStatistics(AppDbContext dbContext, Expression<Func<CompetitionsResultTable, int>> property, StatisticType statisticType, StatisticOrder statisticOrder)
         {
             var results = await GetAllResults(dbContext.Results, x => x.Won).ToListAsync();
 

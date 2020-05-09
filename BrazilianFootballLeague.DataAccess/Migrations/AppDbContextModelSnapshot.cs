@@ -37,7 +37,7 @@ namespace BrazilianFootballLeague.DataAccess.Migrations
                         });
                 });
 
-            modelBuilder.Entity("BrazilianFootballLeague.DataAccess.BusinessObjects.Competitions_ResultTable", b =>
+            modelBuilder.Entity("BrazilianFootballLeague.DataAccess.BusinessObjects.CompetitionsResultTable", b =>
                 {
                     b.Property<int>("ID")
                         .ValueGeneratedOnAdd()
@@ -1484,7 +1484,7 @@ namespace BrazilianFootballLeague.DataAccess.Migrations
                         });
                 });
 
-            modelBuilder.Entity("BrazilianFootballLeague.DataAccess.BusinessObjects.Competitions_Seasons", b =>
+            modelBuilder.Entity("BrazilianFootballLeague.DataAccess.BusinessObjects.CompetitionsSeasons", b =>
                 {
                     b.Property<int>("ID")
                         .ValueGeneratedOnAdd()
@@ -1920,9 +1920,9 @@ namespace BrazilianFootballLeague.DataAccess.Migrations
                         });
                 });
 
-            modelBuilder.Entity("BrazilianFootballLeague.DataAccess.BusinessObjects.Competitions_ResultTable", b =>
+            modelBuilder.Entity("BrazilianFootballLeague.DataAccess.BusinessObjects.CompetitionsResultTable", b =>
                 {
-                    b.HasOne("BrazilianFootballLeague.DataAccess.BusinessObjects.Competitions_Seasons", "Season")
+                    b.HasOne("BrazilianFootballLeague.DataAccess.BusinessObjects.CompetitionsSeasons", "Season")
                         .WithMany("Results")
                         .HasForeignKey("SeasonID")
                         .OnDelete(DeleteBehavior.Cascade)
@@ -1935,7 +1935,7 @@ namespace BrazilianFootballLeague.DataAccess.Migrations
                         .IsRequired();
                 });
 
-            modelBuilder.Entity("BrazilianFootballLeague.DataAccess.BusinessObjects.Competitions_Seasons", b =>
+            modelBuilder.Entity("BrazilianFootballLeague.DataAccess.BusinessObjects.CompetitionsSeasons", b =>
                 {
                     b.HasOne("BrazilianFootballLeague.DataAccess.BusinessObjects.Competitions", "Competition")
                         .WithMany("Seasons")
@@ -1947,7 +1947,7 @@ namespace BrazilianFootballLeague.DataAccess.Migrations
             modelBuilder.Entity("BrazilianFootballLeague.DataAccess.BusinessObjects.Teams", b =>
                 {
                     b.HasOne("BrazilianFootballLeague.DataAccess.BusinessObjects.States", "State")
-                        .WithMany()
+                        .WithMany("Teams")
                         .HasForeignKey("StateID")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();

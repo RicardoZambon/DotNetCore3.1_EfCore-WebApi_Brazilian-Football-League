@@ -10,7 +10,7 @@ namespace BrazilianFootballLeague.DataAccess.BusinessObjects
         public string Name { get; set; }
 
 
-        public virtual ICollection<Competitions_Seasons> Seasons { get; set; }
+        public virtual ICollection<CompetitionsSeasons> Seasons { get; set; }
 
 
         public Teams GetBestTeam_GoalsFor(Competitions competitions)

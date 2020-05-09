@@ -11,7 +11,7 @@ namespace BrazilianFootballLeague.WebApi.Models
         public IEnumerable<ResultsModel> Results { get; }
 
 
-        public SeasonsModel(Competitions_Seasons season)
+        public SeasonsModel(CompetitionsSeasons season)
         {
             Year = season.Year;
             Results = season.Results.Select(x => new ResultsModel(x));

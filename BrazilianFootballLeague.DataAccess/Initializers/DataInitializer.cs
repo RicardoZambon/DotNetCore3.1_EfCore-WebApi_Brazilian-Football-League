@@ -17,33 +17,33 @@ namespace BrazilianFootballLeague.DataAccess.Initializers
         {
             #region States
 
-            modelBuilder.Entity<States>().HasData(new States() { ID = 1, Name = "Acre", Code = "AC" });
-            modelBuilder.Entity<States>().HasData(new States() { ID = 2, Name = "Alagoas", Code = "AL" });
-            modelBuilder.Entity<States>().HasData(new States() { ID = 3, Name = "Amapá", Code = "AP" });
-            modelBuilder.Entity<States>().HasData(new States() { ID = 4, Name = "Amazonas", Code = "AM" });
-            modelBuilder.Entity<States>().HasData(new States() { ID = 5, Name = "Bahia", Code = "BA" });
-            modelBuilder.Entity<States>().HasData(new States() { ID = 6, Name = "Ceará", Code = "CE" });
-            modelBuilder.Entity<States>().HasData(new States() { ID = 7, Name = "Distrito Federal", Code = "DF" });
-            modelBuilder.Entity<States>().HasData(new States() { ID = 8, Name = "Espírito Santo", Code = "ES" });
-            modelBuilder.Entity<States>().HasData(new States() { ID = 9, Name = "Goiás", Code = "GO" });
-            modelBuilder.Entity<States>().HasData(new States() { ID = 10, Name = "Maranhão", Code = "MA" });
-            modelBuilder.Entity<States>().HasData(new States() { ID = 11, Name = "Mato Grosso", Code = "MT" });
-            modelBuilder.Entity<States>().HasData(new States() { ID = 12, Name = "Mato Grosso do Sul", Code = "MS" });
-            modelBuilder.Entity<States>().HasData(new States() { ID = 13, Name = "Minas Gerais", Code = "MG" });
-            modelBuilder.Entity<States>().HasData(new States() { ID = 14, Name = "Pará", Code = "PA" });
-            modelBuilder.Entity<States>().HasData(new States() { ID = 15, Name = "Paraíba", Code = "PB" });
-            modelBuilder.Entity<States>().HasData(new States() { ID = 16, Name = "Paraná", Code = "PR" });
-            modelBuilder.Entity<States>().HasData(new States() { ID = 17, Name = "Pernambuco", Code = "PE" });
-            modelBuilder.Entity<States>().HasData(new States() { ID = 18, Name = "Piauí", Code = "PI" });
-            modelBuilder.Entity<States>().HasData(new States() { ID = 19, Name = "Rio de Janeiro", Code = "RJ" });
-            modelBuilder.Entity<States>().HasData(new States() { ID = 20, Name = "Rio Grande do Norte", Code = "RN" });
-            modelBuilder.Entity<States>().HasData(new States() { ID = 21, Name = "Rio Grande do Sul", Code = "RS" });
-            modelBuilder.Entity<States>().HasData(new States() { ID = 22, Name = "Rondônia", Code = "RO" });
-            modelBuilder.Entity<States>().HasData(new States() { ID = 23, Name = "Roraima", Code = "RR" });
-            modelBuilder.Entity<States>().HasData(new States() { ID = 24, Name = "Santa Catarina", Code = "SC" });
-            modelBuilder.Entity<States>().HasData(new States() { ID = 25, Name = "São Paulo", Code = "SP" });
-            modelBuilder.Entity<States>().HasData(new States() { ID = 26, Name = "Sergipe", Code = "SE" });
-            modelBuilder.Entity<States>().HasData(new States() { ID = 27, Name = "Tocantins", Code = "TO" });
+            modelBuilder.Entity<States>().HasData(new States { ID = 1, Name = "Acre", Code = "AC" });
+            modelBuilder.Entity<States>().HasData(new States { ID = 2, Name = "Alagoas", Code = "AL" });
+            modelBuilder.Entity<States>().HasData(new States { ID = 3, Name = "Amapá", Code = "AP" });
+            modelBuilder.Entity<States>().HasData(new States { ID = 4, Name = "Amazonas", Code = "AM" });
+            modelBuilder.Entity<States>().HasData(new States { ID = 5, Name = "Bahia", Code = "BA" });
+            modelBuilder.Entity<States>().HasData(new States { ID = 6, Name = "Ceará", Code = "CE" });
+            modelBuilder.Entity<States>().HasData(new States { ID = 7, Name = "Distrito Federal", Code = "DF" });
+            modelBuilder.Entity<States>().HasData(new States { ID = 8, Name = "Espírito Santo", Code = "ES" });
+            modelBuilder.Entity<States>().HasData(new States { ID = 9, Name = "Goiás", Code = "GO" });
+            modelBuilder.Entity<States>().HasData(new States { ID = 10, Name = "Maranhão", Code = "MA" });
+            modelBuilder.Entity<States>().HasData(new States { ID = 11, Name = "Mato Grosso", Code = "MT" });
+            modelBuilder.Entity<States>().HasData(new States { ID = 12, Name = "Mato Grosso do Sul", Code = "MS" });
+            modelBuilder.Entity<States>().HasData(new States { ID = 13, Name = "Minas Gerais", Code = "MG" });
+            modelBuilder.Entity<States>().HasData(new States { ID = 14, Name = "Pará", Code = "PA" });
+            modelBuilder.Entity<States>().HasData(new States { ID = 15, Name = "Paraíba", Code = "PB" });
+            modelBuilder.Entity<States>().HasData(new States { ID = 16, Name = "Paraná", Code = "PR" });
+            modelBuilder.Entity<States>().HasData(new States { ID = 17, Name = "Pernambuco", Code = "PE" });
+            modelBuilder.Entity<States>().HasData(new States { ID = 18, Name = "Piauí", Code = "PI" });
+            modelBuilder.Entity<States>().HasData(new States { ID = 19, Name = "Rio de Janeiro", Code = "RJ" });
+            modelBuilder.Entity<States>().HasData(new States { ID = 20, Name = "Rio Grande do Norte", Code = "RN" });
+            modelBuilder.Entity<States>().HasData(new States { ID = 21, Name = "Rio Grande do Sul", Code = "RS" });
+            modelBuilder.Entity<States>().HasData(new States { ID = 22, Name = "Rondônia", Code = "RO" });
+            modelBuilder.Entity<States>().HasData(new States { ID = 23, Name = "Roraima", Code = "RR" });
+            modelBuilder.Entity<States>().HasData(new States { ID = 24, Name = "Santa Catarina", Code = "SC" });
+            modelBuilder.Entity<States>().HasData(new States { ID = 25, Name = "São Paulo", Code = "SP" });
+            modelBuilder.Entity<States>().HasData(new States { ID = 26, Name = "Sergipe", Code = "SE" });
+            modelBuilder.Entity<States>().HasData(new States { ID = 27, Name = "Tocantins", Code = "TO" });
 
             #endregion
 
@@ -102,7 +102,7 @@ namespace BrazilianFootballLeague.DataAccess.Initializers
 
                 foreach (var season in competition.Seasons)
                 {
-                    modelBuilder.Entity<Competitions_Seasons>().HasData(new Competitions_Seasons() { ID = seasonId, CompetitionID = competitionId, Year = season.Year });
+                    modelBuilder.Entity<CompetitionsSeasons>().HasData(new CompetitionsSeasons() { ID = seasonId, CompetitionID = competitionId, Year = season.Year });
 
                     foreach(var result in season.Results)
                     {
@@ -113,7 +113,7 @@ namespace BrazilianFootballLeague.DataAccess.Initializers
                             throw new Exception($"Team {result.Team} not found!");
                         }
 
-                        modelBuilder.Entity<Competitions_ResultTable>().HasData(new Competitions_ResultTable()
+                        modelBuilder.Entity<CompetitionsResultTable>().HasData(new CompetitionsResultTable()
                         {
                             ID = resultId,
                             SeasonID = seasonId,

@@ -14,9 +14,9 @@ namespace BrazilianFootballLeague.DataAccess
     {
         public DbSet<Competitions> Competitions { get; set; }
 
-        public DbSet<Competitions_ResultTable> Results { get; set; }
+        public DbSet<CompetitionsResultTable> Results { get; set; }
 
-        public DbSet<Competitions_Seasons> Seasons { get; set; }
+        public DbSet<CompetitionsSeasons> Seasons { get; set; }
 
         public DbSet<States> States { get; set; }
 
