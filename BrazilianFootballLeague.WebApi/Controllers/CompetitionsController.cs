@@ -24,7 +24,7 @@ namespace BrazilianFootballLeague.WebApi.Controllers
             var competitions = await _ctx.Competitions.ToListAsync();
             if (competitions.Count() > 0)
             {
-                return Ok(competitions.Select(x => new CompetitionsModel(x)));
+                return Ok(competitions.Select(x => new CompetitionsModel(x, 5)));
             }
             else
             {

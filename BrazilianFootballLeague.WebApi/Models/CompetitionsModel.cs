@@ -1,5 +1,7 @@
 ﻿using BrazilianFootballLeague.DataAccess.BusinessObjects;
+using System;
 using System.Collections.Generic;
+using System.ComponentModel;
 using System.Linq;
 
 namespace BrazilianFootballLeague.WebApi.Models
@@ -11,10 +13,10 @@ namespace BrazilianFootballLeague.WebApi.Models
         public IEnumerable<SeasonsModel> Seasons { get; }
 
 
-        public CompetitionsModel(Competitions competition)
+        public CompetitionsModel(Competitions competition, int? limitSeasonYear)
         {
             Competition = competition.Name;
-            Seasons = competition.Seasons.Select(x => new SeasonsModel(x));
+            Seasons = competition.Seasons.Where(x => limitSeasonYear == null || x.Year >= limitSeasonYear).Select(x => new SeasonsModel(x));
         }
     }
 }
