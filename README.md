@@ -10,4 +10,4 @@ This application use as example data from last 5 years Brazilian Serie A table (
 
 The team list will return all teams with their position, team name, and totals (points, competitions, won, draw, lost, goals for, goals against and goal score).
 
-You can access the team list at "[http://[your-local-host]/api/Teams](http://[your-local-host]/api/Teams).
+You can access the team list at [http://[your-local-host]/api/Teams](http://[your-local-host]/api/Teams).
