@@ -8,12 +8,25 @@ This application use as example data from last 5 years Brazilian Serie A table (
 
 ### Reading teams list ###
 
-The team list will return all teams with their position regarding all competitions, team name, and totals (points, competitions, won, draw, lost, goals for, goals against and goal score).
+The team list will return all teams with their position regarding all competitions in JSON format: Team name, and totals (points, competitions, won, draw, lost, goals for, goals against and goal score).
 
 You can access the team list at [http://[your-local-host]/api/Teams](http://[your-local-host]/api/Teams).
 
 ### Reading states list ###
 
-The states list will return all states with their position regarding all competitions, state name, and totals (points, competitions, won, draw, lost, goals for, goals against and goal score).
+The states list will return all states with their position regarding all competitions JSON format: State name, and totals (points, competitions, won, draw, lost, goals for, goals against and goal score).
 
-You can access the team list at [http://[your-local-host]/api/Teams](http://[your-local-host]/api/States).
+You can access the team list at [http://[your-local-host]/api/States](http://[your-local-host]/api/States).
+
+### Team statistics ###
+
+The system return also statistics from all competitions at [http://[your-local-host]/api/Teams/Statistics/[type]](http://[your-local-host]/api/Statistics/[type]).
+
+There are available the following statistics types:
+
+* 0: Team name with the best (highest) avegare of goals for
+* 1: Team name with the best (lowest) average of goals against
+* 2: Team name with the highest number of victories
+* 3: Team name with the lowest number of victories
+* 4: Team name with the best average of victories per competition
+* 5: Team name with the lowest average of victories per competition
