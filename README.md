@@ -1,5 +1,6 @@
 # Brazilian Football League
 
+[![Codacy Badge](https://api.codacy.com/project/badge/Grade/c68ad3b5bd7a493a8c751f4614cd0de1)](https://app.codacy.com/manual/RicardoZambon/BrazilianFootballLeague?utm_source=github.com&utm_medium=referral&utm_content=RicardoZambon/BrazilianFootballLeague&utm_campaign=Badge_Grade_Dashboard)
 [![Codacy Badge](https://api.codacy.com/project/badge/Grade/16661afd7ac54f31889120b932fd16eb)](https://app.codacy.com/manual/RicardoZambon/BrazilianFootballLeague?utm_source=github.com&utm_medium=referral&utm_content=RicardoZambon/BrazilianFootballLeague&utm_campaign=Badge_Grade_Dashboard)
 
 This is a demo WebApi application using .NET Core 3.1, EF Core with SQLite and unit tests with xUnit.
